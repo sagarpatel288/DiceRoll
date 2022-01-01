@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dice Practice</string>
+    <string name="st_placeholder">Placeholder</string>
+    <string name="st_roll">Roll</string>
+</resources>
