@@ -30,6 +30,11 @@ class ViewModelRoll : ViewModel() {
         _rollValue.value = random
     }
 
+    fun onClickReset() {
+        Timber.d(" :$LOG_APP_NAME: ViewModelRoll: :onClickReset: ")
+        _rollValue.value = 0
+    }
+
     override fun onCleared() {
         Timber.d(" :$LOG_APP_NAME: ViewModelRoll: :onCleared: ")
         super.onCleared()
