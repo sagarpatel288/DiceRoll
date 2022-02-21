@@ -56,5 +56,4 @@ class ViewModelRoll : ViewModel() {
         Timber.d(" :$LOG_APP_NAME: ViewModelRoll: :onCleared: ")
         super.onCleared()
     }
-
 }
